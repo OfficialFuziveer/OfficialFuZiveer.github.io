@@ -17,6 +17,7 @@ body {
   background-color: hsl(var(--one));
   margin: 0;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 
   * {
     font-family: "Poppins", sans-serif;
