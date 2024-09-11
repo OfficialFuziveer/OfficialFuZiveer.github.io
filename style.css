@@ -71,22 +71,6 @@ body * {
   gap: 0.5rem;
 }
 
-.scroll-to-top🔸 {
-  display: none;
-  position: fixed;
-  z-index: 2;
-  bottom: 6.25rem;
-  right: 6.25rem;
-  font-size: 2rem;
-  transform: rotate(180deg);
-  cursor: pointer;
-  color: hsl(var(--four));
-  background-color: hsl(var(--two));
-  border: solid 0.0625rem hsl(var(--three));
-  border-radius: 0.25rem;
-  padding: 0 0.5rem;
-}
-
 .navigation-bar🔸 {
   position: relative;
   z-index: 1;

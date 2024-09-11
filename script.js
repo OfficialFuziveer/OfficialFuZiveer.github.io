@@ -25,7 +25,7 @@ function change(event, sectionId) {
     $(".button🔸[id='" + activeInnerSections[sectionId] + "']").addClass("active-v2🔸");
   }
 
-  scrollToTop();
+  // scrollToTop();
 }
 
 function changeInner(event, id) {
@@ -40,24 +40,24 @@ function changeInner(event, id) {
   activeInnerSections[sectionId] = id;
 }
 
-function scrollToTop() {
-  if (!isScrolling) {
-    isScrolling = true;
+// function scrollToTop() {
+//   if (!isScrolling) {
+//     isScrolling = true;
 
-    $("html, body").animate({ scrollTop: 0 }, 600, function () {
-      isScrolling = false;
-    });
-  }
-}
+//     $("html, body").animate({ scrollTop: 0 }, 600, function () {
+//       isScrolling = false;
+//     });
+//   }
+// }
 
-setInterval(() => {
-  if ($(document).scrollTop() > 500) {
-    $(".scroll-to-top🔸").stop().fadeIn(300);
-  } else {
-    $(".scroll-to-top🔸").stop().fadeOut(300);
+// setInterval(() => {
+//   if ($(document).scrollTop() > 500) {
+//     $(".scroll-to-top🔸").stop().fadeIn(300);
+//   } else {
+//     $(".scroll-to-top🔸").stop().fadeOut(300);
 
-    setTimeout(() => {
-      $(".scroll-to-top🔸").stop().hide();
-    }, 300);
-  }
-}, 600);
+//     setTimeout(() => {
+//       $(".scroll-to-top🔸").stop().hide();
+//     }, 300);
+//   }
+// }, 600);
